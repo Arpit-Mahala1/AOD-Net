@@ -99,7 +99,7 @@ comparable to the table above.
 @inproceedings{aodnet2026,
     title     = {AOD-Net: A Spatio-Temporal Segmentation Approach for Abandoned Object Detection in Videos},
     author    = {Mahala, Arpit and Mukherjee, Prerana and Kurkiya, Rishik},
-    note = {Accepted at CVIP 2026},
+    note      = {Accepted at CVIP 2026},
     year      = {2026}
   }
 ```
