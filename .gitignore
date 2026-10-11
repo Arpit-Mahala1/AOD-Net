@@ -1,0 +1,63 @@
+# # Python cache and virtual environments
+# __pycache__/
+# *.py[cod]
+# *.pyo
+# *.pyd
+# .venv/
+# venv/
+# env/
+# ENV/
+
+# # IDE and OS files
+# .vscode/
+# .idea/
+# .DS_Store
+# Thumbs.db
+
+# # Local logs and temporary files
+# *.log
+# *.tmp
+# *.swp
+
+# # Large/generated project data (keep local only)
+# dataset/
+# training_data/
+# training_data_sam2/
+# yolo_dataset/
+# test_videos/
+# test_videos_1/
+# outputs/
+# outputs_depth4_thresh02/
+# outputs_depth4_thresh02_dilate3/
+# outputs_sam2/
+# outputs_sam2_flowon/
+# outputs_sam2_noflow/
+# pipeline_depth4_full/
+# pipeline_final/
+# pipeline_run4_seeded/
+# runs/*
+# !runs/run_final_confirmed/
+# !runs/run_final_confirmed/model.pt
+# runs/run_final_confirmed/*
+# !runs/run_final_confirmed/model.pt
+# metrics_logs/
+
+# # Generated YOLO/SAM2 run outputs inside the scripts tree
+# scripts/runs/
+
+# # Keep the original scripts folder and non-script zip archives tracked
+# scripts.zip
+
+# ignore everything at the top level, then allow what belongs
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/requirements.txt
+!/scripts/
+!/docs/
+!/paper/
+
+# scripts/: python files only
+/scripts/*
+!/scripts/*.py
